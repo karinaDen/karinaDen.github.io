@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:position="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Contact%20style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inika&display=swap" rel="stylesheet">
+    <title>Karina's portfolio</title>
+    <style>
+        a {
+            margin: 10px;
+        }
+
+        .item1 {
+            grid-area: header;
+        }
+
+        .item2 {
+            grid-area: main1;
+
+            align-items: center;
+            /*text-align: center;*/
+        }
+
+        .item3 {
+            grid-area: tg;
+            /*text-align: center;*/
+        }
+
+        .item4 {
+            grid-area: mail;
+            /*text-align: center;*/
+        }
+
+        .item5 {
+            grid-area: text1;
+            /*text-align: center;*/
+        }
+
+        .item6 {
+            grid-area: text2;
+            /*text-align: center;*/
+        }
+
+        .item7 {
+            grid-area: text3;
+            /*text-align: center;*/
+        }
+
+        .grid-container {
+            background-image: url("images/Vector.svg");
+            background-repeat: repeat;
+            height: 100%;
+
+
+            display: grid;
+            grid-template-areas:
+                    'header header header'
+                    'main1 tg mail'
+                    'text1 text2 text3';
+
+        }
+
+    </style>
+</head>
+<body>
+<div class="grid-container">
+    <header>
+        <div class="header">
+            <div class="header_inner">
+                <div class="item1">
+                    <div class="header_logo">
+                        <a class="header_Home" href="index.html"> Home</a>
+                    </div>
+                </div>
+                <div class="item1">
+                    <nav class="nav">
+                        <a class="nav_link" href="AboutMe.html"> About</a>
+                        <a class="nav_link" href="Progect%20page.html"> Projects</a>
+                        <a class="nav_link" href="#"> Contacts</a>
+
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+<!--    <div class="intro">-->
+
+        <div class="item2">
+        <p class="git"><a href="https://github.com/karinaDen"><img src="images/path16.svg"></a></p>
+        </div>
+            <div class="item5">
+        <a class="gith" href="https://github.com/karinaDen">GitHub</a>
+        </div>
+        <div class="item3">
+        <p class="tg"><a href="https://t.me/karinadenisova"><img src="images/icons8-telegram-app%201.svg"></a></p>
+        </div>
+        <div class="item6">
+        <a class="tgt" href="https://t.me/karinadenisova">Telegram</a>
+        </div>
+            <div class="item4">
+        <p class="gmail"><a href="mailto:karinochka20031002@gmail.com"><img src="images/icons8-gmail%201.svg"></a></p>
+            </div>
+        <div class="item7">
+        <a class="gmailt" href="mailto:karinochka20031002@gmail.com">Gmail</a>
+            </div>
+<!--    </div>-->
+</div>
+</body>
+</html>

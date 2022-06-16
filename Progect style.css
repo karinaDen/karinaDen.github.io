@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+body {
+    font-family: 'Inika', serif;
+    position: absolute;
+
+
+    width: 100%;
+    height: 100%;
+
+
+    background: #FFECEB;
+}
+
+.header {
+    width: 100%;
+    position: absolute;
+    height: 70px;
+    background: #FFECEB;
+    border-bottom: 4px solid #FFFFFF;
+    align-items: center;
+}
+
+.header_inner {
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_Home {
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 47px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration-line: none;
+    text-transform: uppercase;
+
+    color: #876D6D;
+}
+
+.header_Home:hover {
+    color: #594646;
+    text-decoration-line: underline;
+
+}
+
+.nav {
+    text-transform: uppercase;
+
+}
+
+.nav_link {
+    display: inline-block;
+    vertical-align: top;
+    margin: 26px;
+    color: #876D6D;
+    text-decoration: none;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 47px;
+
+    transition: color .2s linear;
+}
+
+.nav_link:hover {
+    color: #594646;
+    text-decoration-line: underline;
+
+}
+
+
+/* end of header block */
+
+.intro {
+    height: calc(1000px - 260px);
+    position: relative;
+    top: 70px;
+    width: 100%;
+}
+
+.Vector {
+    width: 100%;
+}
+
+.text1 {
+    position: relative;
+    height: 520px;
+    /*left: 15%;*/
+    top: 15%;
+
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 47px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+.secret{
+    position: relative;
+    font-size: 10px;
+}
+.CorgiPic{
+    position: relative;
+    width: 32px;
+    height: 32px;
+}
+.dogImage{
+    position: relative;
+    margin-left: auto;
+}
+
+
+
+
+
