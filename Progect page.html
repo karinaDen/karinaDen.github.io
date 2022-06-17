@@ -88,7 +88,7 @@
         <h4>psst, want some dog pictures? click on corgi👽</h4>
     </div>
     <div class="item4">
-        <p onClick="getRandomImage()"><img class="CorgiPic" src="images/output-onlinegiftools.gif"></p>
+        <p><img id="btn" class="CorgiPic" src="images/output-onlinegiftools.gif"></p>
     </div>
     <div class="item5">
         <br/>
@@ -101,28 +101,7 @@
                 target="_blank" href="https://icons8.com">Icons8</a>
         </div>
     </div>
-    <script>
-        function httpGet(theUrl) {
-            var xmlHttp = new XMLHttpRequest();
-            xmlHttp.open("GET", theUrl, false);
-            xmlHttp.send(null);
-            return xmlHttp.responseText;
-        }
-
-        function getRandomImage() {
-            var json = httpGet('https://dog.ceo/api/breeds/image/random');
-            console.log(json);
-
-            var array = JSON.parse(json);
-            console.log(array);
-
-            var url = array.message;
-            console.log(url);
-
-            var image = document.getElementById('dogImage');
-
-            image.src = url;
-        }
+    <script src="src/main.js">
     </script>
 </div>
 </body>
