@@ -3,7 +3,7 @@ import { terser } from 'rollup-plugin-terser';
 import typescript from "@rollup/plugin-typescript";
 
 export default {
-    input: 'ts/HW3.ts',
+    input: 'src/ts/HW3.ts',
     output: { file: 'bundle.js' },
     plugins: [
         resolve({ browser: true }),

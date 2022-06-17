@@ -7,14 +7,17 @@ let pic = document.getElementById('dogImage') as HTMLImageElement;
 
 let getAPI = async () => {
     let res = await fetch('https://dog.ceo/api/breeds/image/random');
-    let json = await res.json();
-    return json;
+    let Json: Input = await res.json();
+
+    console.log(Json.url);
+
+    return Json.url;
 }
 
 btn.addEventListener("click", async event => {
     event.preventDefault();
 
-    getAPI();
+    await getAPI();
 
     pic.src = await getAPI();
 })
