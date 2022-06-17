@@ -28,7 +28,7 @@ module.exports = function (grunt) {
 // grunt.loadNpmTasks('grunt-concat-css');
 grunt.loadNpmTasks('grunt-contrib-imagemin');
 
-grunt.registerTask('default', ['imagemin', 'concat_css']);
+grunt.registerTask('default', ['imagemin']);
 
 }
 ;
