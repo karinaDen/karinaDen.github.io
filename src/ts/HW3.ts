@@ -2,11 +2,9 @@ interface Input {
     url: string;
 }
 
-let btn = document.getElementById('btn');
-let pic = document.getElementById('dogImage') as HTMLImageElement;
 
 let getAPI = async () => {
-    let res = await fetch('https://dog.ceo/api/breeds/image/random');
+    let res = await fetch("https://random.dog/woof.json");
     let Json: Input = await res.json();
 
     console.log(Json.url);
@@ -14,10 +12,14 @@ let getAPI = async () => {
     return Json.url;
 }
 
+let btn = document.getElementById('btn');
+let pic = document.getElementById('dogImage') as HTMLImageElement;
+
+
 btn.addEventListener("click", async event => {
     event.preventDefault();
 
-    await getAPI();
+    getAPI();
 
     pic.src = await getAPI();
 })

@@ -9,9 +9,6 @@ async function f() {
 
 btn.addEventListener("click", () => {
     f().then((message) => {
-pic.src = message.url;
+        pic.src = message.url;
     });
 })
-
-
-
