@@ -1,0 +1,26 @@
+{
+  "name": "karinaden.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "dependencies": {
+    "lodash-es": "^4.17.21"
+  },
+  "devDependencies": {
+    "rollup": "^2.75.6"
+  },
+  "scripts": {
+    "test": "1",
+    "build": "rollup --config rollup.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karinaDen/karinaDen.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karinaDen/karinaDen.github.io/issues"
+  },
+  "homepage": "https://github.com/karinaDen/karinaDen.github.io#readme"
+}
