@@ -9,6 +9,8 @@
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^13.3.0",
     "@rollup/plugin-typescript": "^8.3.3",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-imagemin": "^4.0.0",
     "rollup": "^2.75.6",
     "rollup-plugin-terser": "^7.0.2",
     "tslib": "^2.4.0",
